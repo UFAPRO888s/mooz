@@ -126,7 +126,7 @@ const PeoplePanel: FunctionComponent = () => {
     useEffect(() => {
         if (!connections.length && !aloneToast.current)
             aloneToast.current = toast(
-                'You are curently alone 💩, make some friends and then invite them!',
+                'คุณอยู่คนเดียว หาเพื่อนแล้วเชิญพวกเขา!',
                 {
                     autoClose: Timeout.PERSIST,
                     type: ToastType.info,

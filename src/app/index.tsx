@@ -19,9 +19,9 @@ const App: FunctionComponent = () => {
 
     useEffect(() => {
         document.title =
-            room?.name || (room?.created_by && `Meeting by ${room?.created_by}`) || 'A Mooz meeting'
+            room?.name || (room?.created_by && `Meeting by ${room?.created_by}`) || 'A UFAX meeting'
         return () => {
-            document.title = 'Mooz'
+            document.title = 'UFAX'
         }
     }, [room])
 
