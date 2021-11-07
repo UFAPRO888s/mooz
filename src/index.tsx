@@ -46,7 +46,7 @@ const Eagle: FunctionComponent = () => {
         // }
         const onRoomJoined = (r: Room) => {
             const name = r.name || `by ${r.created_by}` || `with id ${r.id}`
-            window.history.pushState({}, 'Mooz', `/room/${r.id}`)
+            window.history.pushState({}, 'UFABET-LIVE', `/room/${r.id}`)
             setRoom(r)
             toast(`Joined room ${name}`)
         }
