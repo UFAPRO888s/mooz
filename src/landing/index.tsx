@@ -28,14 +28,16 @@ const Landing: FunctionComponent = () => {
         defaultKey = 'join'
         defaultId = match.groups?.id
     }
+    const urlufa="https://ufapro888s.info/";
     useEffect(() => {
         if (fscreen.fullscreenElement) fscreen.exitFullscreen()
     }, [])
+    
     return (
         <Stack className={container} horizontalAlign="center">
             <Stack.Item className={containerInner}>
                 <Text className={heading} variant="superLarge">
-                    Welcome to MEET UFAX
+                    Welcome to MEET UFAX  <a href={urlufa}>ทางเข้าหลักUFABET</a>
                 </Text>
                 <Stack horizontalAlign="center" horizontal wrap>
                     <Stack.Item className={mr4} grow>
